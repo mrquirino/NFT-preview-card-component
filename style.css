@@ -1,0 +1,26 @@
+body{
+    background: rgb(25, 25, 117);
+}
+
+main {
+    width: 300px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 15px;
+    margin: 0 auto;
+    background: rgba(37, 30, 30, 0.788);
+}
+
+.h1,.h3,.h4,.h5 {
+    
+    align-items: left;
+    justify-content: left;
+    margin: 5px auto;
+    box-sizing: 10px 15px;
+    box-shadow: 15px 10px;
+}
+
+img{
+    
+}
