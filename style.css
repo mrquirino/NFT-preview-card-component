@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
 body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto sans', sans-serif;
     background: rgb(25, 25, 117);
 }
 
 main {
-    width: 300px;
+    width: 25%;
     height: auto;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     padding: 5px 15px;
     margin: 0 auto;
+    margin-top: 120px;
+    border: 3px solid gray;
     background: rgba(37, 30, 30, 0.788);
 }
 
@@ -21,6 +27,10 @@ main {
     box-shadow: 15px 10px;
 }
 
-img{
-    
+img {
+    width: 80%;
+    padding: 10%;
+    flex-direction: column;
+    box-sizing: 10px 10px 10px 10px;
+    box-shadow: 10px gray;
 }
