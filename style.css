@@ -27,7 +27,7 @@ main {
 
 .h3 {
     width: 300px;
-    height: 15px; 
+    height: 15px;
     margin: 5px 5px;
     padding: flex;
 }
@@ -42,11 +42,18 @@ img {
     box-shadow: 10px gray;
 }
 
-audio{
-    margin-bottom: 20px;
+.audio-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
 }
+
+.audio-player {
+    width: 100%;
+}
+
 /*Mudar o fundo do audio*/
 audio::-webkit-media-controls-panel {
-    background-color:rgba(37, 30, 30, 0.479); /* Cor de fundo */
-    color: black; /* Cor do texto */
-  }
+    background-color: rgba(37, 30, 30, 0.479);
+    color: black;
+}
