@@ -21,35 +21,18 @@ main {
 .h1 {
     width: 15px;
     height: 10px;
-   
     margin: 5px auto;
     padding: flex;
-
-
-    /*box-sizing: 10px 15px;
-    box-shadow: 15px 10px;*/
 }
 
 .h3 {
     width: 300px;
-    height: 15px;
-    
-    margin: px 5px;
+    height: 15px; 
+    margin: 5px 5px;
     padding: flex;
-
-    /*box-sizing: 10px 15px;
-    box-shadow: 15px 10px;*/
 }
 
-/*.h1,.h3,.h4,.h5 {
-    width: 15vw;
-    height: 2vw;
-    align-items: left;
-    justify-content: left;
-    margin: 5px auto;
-    box-sizing: 10px 15px;
-    box-shadow: 15px 10px;
-}*/
+
 
 img {
     width: 80%;
@@ -58,3 +41,12 @@ img {
     box-sizing: 10px 10px 10px 10px;
     box-shadow: 10px gray;
 }
+
+audio{
+    margin-bottom: 20px;
+}
+/*Mudar o fundo do audio*/
+audio::-webkit-media-controls-panel {
+    background-color:rgba(37, 30, 30, 0.479); /* Cor de fundo */
+    color: black; /* Cor do texto */
+  }
