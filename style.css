@@ -59,7 +59,7 @@ audio::-webkit-media-controls-panel {
     
     background: rgb(0, 0, 0);    
 }
-
+/*
 audio::-webkit-media-controls-play-button {
     
     filter: invert(100%) hue-rotate(180deg);
@@ -80,4 +80,4 @@ audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb{
 }
 audio::-webkit-media-controls-volume-slider{
     filter: invert(0%) hue-rotate(180deg);
-}
+}/*
