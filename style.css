@@ -55,6 +55,29 @@ img {
 /*Mudar o fundo do audio*/
 audio::-webkit-media-controls-panel {
     /*background-color: rgb(44, 42, 42);*/
-    -webkit-text-fill-color: aqua;
-    background: gray;    
+    -webkit-text-fill-color: rgb(245, 245, 245);
+    
+    background: rgb(0, 0, 0);    
+}
+
+audio::-webkit-media-controls-play-button {
+    
+    filter: invert(100%) hue-rotate(180deg);
+}
+
+audio::-webkit-media-controls-timeline{
+    background-color: gray;
+    filter: invert(100%) hue-rotate(180deg) ;  
+}
+
+audio::-webkit-media-controls-current-time-display{
+    filter: invert(0%) hue-rotate(180deg);
+    background-color: rgb(112, 72, 72);
+}
+audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb{
+    filter: invert(0%) hue-rotate(180deg) ;
+    color: rgb(221, 38, 38);
+}
+audio::-webkit-media-controls-volume-slider{
+    filter: invert(0%) hue-rotate(180deg);
 }
