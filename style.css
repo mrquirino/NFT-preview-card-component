@@ -32,8 +32,6 @@ main {
     padding: flex;
 }
 
-
-
 img {
     width: 80%;
     padding: 10%;
@@ -53,21 +51,22 @@ img {
 }
 
 /*Mudar o fundo do audio*/
+/*
 audio::-webkit-media-controls-panel {
-    /*background-color: rgb(44, 42, 42);*/
+    background-color: rgb(44, 42, 42);
     -webkit-text-fill-color: rgb(245, 245, 245);
     
-    background: rgb(0, 0, 0);    
+    background: rgb(68, 48, 48);    
 }
-/*
+
 audio::-webkit-media-controls-play-button {
     
     filter: invert(100%) hue-rotate(180deg);
 }
 
 audio::-webkit-media-controls-timeline{
-    background-color: gray;
-    filter: invert(100%) hue-rotate(180deg) ;  
+    background-color: rgb(68, 61, 61);
+    filter: invert(0%) hue-rotate(180deg) ;  
 }
 
 audio::-webkit-media-controls-current-time-display{
@@ -76,8 +75,8 @@ audio::-webkit-media-controls-current-time-display{
 }
 audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb{
     filter: invert(0%) hue-rotate(180deg) ;
-    color: rgb(221, 38, 38);
+    color: rgb(192, 192, 192);
 }
 audio::-webkit-media-controls-volume-slider{
     filter: invert(0%) hue-rotate(180deg);
-}/*
+}*/
