@@ -32,12 +32,29 @@ main {
     padding: flex;
 }
 
+
+
 img {
     width: 80%;
-    padding: 10%;
+    padding: 10% auto;
     flex-direction: column;
-    box-sizing: 10px 10px 10px 10px;
-    box-shadow: 10px gray;
+    border: 1px 1px 1px 1px;
+    box-sizing: 1px 1px 1px 1px;
+    border-radius: 25rem 25rem 25rem 25rem ; 
+}
+
+.a{
+    padding: 2rem auto;
+    width: 15%;
+    flex-direction: column;
+    border-radius: 25rem 25rem 25rem 25rem ; 
+    display: flex;
+}
+
+.b{
+    box-shadow: 5px 5px 5px 5px  rgb(31, 150, 61);
+    justify-content: center;
+    margin-left: 25px;
 }
 
 .audio-container {
@@ -51,14 +68,14 @@ img {
 }
 
 /*Mudar o fundo do audio*/
-/*
+
 audio::-webkit-media-controls-panel {
     background-color: rgb(44, 42, 42);
-    -webkit-text-fill-color: rgb(245, 245, 245);
+    -webkit-text-fill-color: rgb(41, 20, 20);
     
     background: rgb(68, 48, 48);    
 }
-
+/*
 audio::-webkit-media-controls-play-button {
     
     filter: invert(100%) hue-rotate(180deg);
