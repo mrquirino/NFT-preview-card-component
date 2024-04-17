@@ -8,11 +8,12 @@ body {
 }
 
 main {
-    width: 50%;
+    width: 25%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    flex-direction: column;
     padding: 20px;
     margin: 0 auto;
     margin-top: 120px;
@@ -35,10 +36,11 @@ main {
 }
 
 .h5{
-    display: flex;
+    display: 0 auto;
     padding: flex;
+    margin: 1rem 5rem;
     padding-left: 80px;
-    padding-bottom: 5px;
+    padding: 0 auto;
 }
 
 
