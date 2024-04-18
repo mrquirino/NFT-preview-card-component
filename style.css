@@ -21,15 +21,21 @@ main {
 }
 
 .h1 {
-    width: 150px;
-    height: 20px;
+    width: 120px;
+    height: auto;
     justify-content:center ;
-    /* align-items:flex-start; */
-    /* margin: 0 150px; */
-    padding: flex;
-    display: flex;
+    text-align: flex;
+    padding: 0 15px;
+    display: inline-block;
 }
 
+.logo {
+    display: inline-block;
+}
+
+.logo .img{
+    
+}
 /* .h3 {
     width: 300px;
     height: 15px;
@@ -38,13 +44,13 @@ main {
     padding: flex;
 } */
 
-.h5{
+/* .h5{
     display: flex;
     padding: flex;
     margin:bottom;
     padding-left: 80px;
     padding-bottom: 5px;
-}
+} */
 
 
 img {
